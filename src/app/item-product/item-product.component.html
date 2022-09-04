@@ -1,0 +1,9 @@
+<hr>
+<h3> {{product.name}}</h3>
+<p>Date published: {{product.dateOfRelease | date:'dd/MM/yyyy, h:mm a'}}</p>
+<p>price:<b> {{product.price | shekelCurrency}} </b></p>
+<img src="{{product.image}}" style="height: 150px;" (click)="goToDetails(product.id)" alt="{{product.name}}">
+
+<button (click)=" Purchase()"  routerLink="/" class="btn btn-primary">Buy</button>
+<a routerLink="/detail/{{product.id}}" class="btn btn-success">Go To Details</a>
+

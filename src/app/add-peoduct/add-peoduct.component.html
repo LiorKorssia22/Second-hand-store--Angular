@@ -1,0 +1,44 @@
+<form [formGroup]="newItemFrom">
+    <div>Name:<br> <input type="text" formControlName="name" />
+        <div class="error" *ngIf="newItemFrom.controls['name']?.errors">*Title field is required <br>
+            *Name must contain at least 1 letter until 16 letter. </div>
+    </div>
+
+    <div>Description:<br> <input type="text" formControlName="description" /> </div>
+    <div class="error" *ngIf="newItemFrom.controls['description']?.errors">*description field is required</div>
+
+    <div>imageUrl:<br> <input type="text" formControlName="image" />
+        <div class="error" *ngIf="newItemFrom.controls['image']?.errors">
+            *Image Source must start with http:// or https://.
+            <br>
+            *Image Source must end with one of the formats: .jpeg, .jpg, .png, .gif, .webp
+        </div>
+    </div>
+
+    <div>price:<br> <input type="number" formControlName="price" />
+        <div class="error" *ngIf="newItemFrom.controls['price']?.errors">
+            *Price field is required.
+            <br>
+            *Price must be at least 1₪.
+        </div>
+    </div>
+
+    <div>city:<br> <input type="text" formControlName="city" />
+        <div class="error" *ngIf="newItemFrom.controls['city']?.errors">
+            *City field is required.
+            <br>
+            *Name must contain at least 1 letter.
+        </div>
+    </div>
+
+    <div>phone number:<br> <input type="number" formControlName="tel" />
+        <div class="error" *ngIf="newItemFrom.controls['tel']?.errors">
+            *Phone number field is required.
+            <br>
+            *Phone number must contain at least 9 and max of 14 numbers.
+        </div>
+    </div>
+
+    <button [disabled]="newItemFrom.invalid" (click)="saveForm()">Submit</button>
+    <div class="error" *ngIf="newItemFrom.invalid">Form is not valid</div>
+</form>

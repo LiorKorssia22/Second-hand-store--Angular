@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bike",
+      "description": "best Closet ",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/trek-checkpoint-slr-5-1633009859.jpg?crop=1.00xw:0.767xh;0,0.119xh&resize=980:*",
+      "price": 900,
+      "city": "Tel Aviv",
+      "tel": 5433254,
+      "dateOfRelease": "2022-08-16T16:59:16.495Z"
+    },
+    {
+      "id": 3,
+      "name": "Closet",
+      "description": "best Closet ",
+      "image": "https://www.house-design.shop/images/itempics/555_10012022115707_large.jpg",
+      "price": 900,
+      "city": "Tel Aviv",
+      "tel": 5433254,
+      "dateOfRelease": "2022-08-19T16:59:16.495Z"
+    },
+    {
+      "id": 5,
+      "name": "leptop",
+      "description": "new description",
+      "dateOfRelease": "2022-08-14T16:59:16.495Z",
+      "image": "https://cashcow-cdn.azureedge.net/images/aa01ff0d-518f-4586-886b-025de1958e3d.webp",
+      "price": 1020,
+      "city": "modiin",
+      "tel": 507768222
+    },
+    {
+      "id": 6,
+      "name": "FUJI BIKES",
+      "description": "BUILDING THE BEST BIKES",
+      "image": "https://www.fujibikes.com/usa/img/homepage/bikegrid/electric.jpg",
+      "price": 3000,
+      "city": "tel aviv",
+      "tel": 544963695,
+      "dateOfRelease": "2022-09-04T20:06:29.402Z"
+    },
+    {
+      "id": 7,
+      "name": "KIA EV6",
+      "description": "electric car",
+      "image": "https://www.evm.co.il/wp-content/uploads/2022/03/Kia_EV6_2022_00007-780x470.webp",
+      "price": 256000,
+      "city": "Ashdod",
+      "tel": 507768222,
+      "dateOfRelease": "2022-09-04T20:08:06.369Z"
+    },
+    {
+      "id": 8,
+      "name": "Apple iPhone 14",
+      "description": "Apple iPhone 14, Pro, Pro Max Price, Release Date, Specifications, Buy Cheap Deals!",
+      "image": "https://www.digitalphablet.com/wp-content/uploads/2021/12/apple-iphone-14-750x375.jpg.webp",
+      "price": 5643,
+      "city": "new york",
+      "tel": 507768222,
+      "dateOfRelease": "2022-09-04T20:10:56.436Z"
+    }
+  ]
+}

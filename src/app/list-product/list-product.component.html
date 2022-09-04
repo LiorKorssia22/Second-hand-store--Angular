@@ -1,0 +1,8 @@
+
+<h1 class="text-success">products</h1>
+<button class="btn btn-outline-primary" (click)="sortPrice()">Sort By price </button>
+<button class="btn btn-outline-primary" (click)="sortDate()">Sort By Date</button>
+<div *ngFor="let product of products">
+    <item-product  [product]="product" (ondelete)="onItemDeleteHandler($event)"></item-product>
+</div>
+

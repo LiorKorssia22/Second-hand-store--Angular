@@ -1,0 +1,17 @@
+<!-- <p>detail-product works!</p> -->
+
+
+
+
+<h3 appHighlight="yellow" errorColor="orange">Name: {{product.name}}</h3>
+<p> ID: {{product.id}}</p>
+<p>DESCRIPTION: {{product.description}}</p>
+<p>Date published: {{product.dateOfRelease | date:'dd/MM/yyyy, h:mm a'}}</p>
+<p>price: {{product.price | shekelCurrency}}</p>
+<p>city: {{product.city}}</p>
+<p>phone number: 0{{product.tel}}</p>
+<img src="{{product.image}}" class="img-thumbnail" style="height: 200px;" alt="{{product.name}}">
+
+<button (click)="deleteHandler(product.id)" class="btn btn-success">Buy</button>
+<a routerLink="/" class="btn btn-primary">Go To Home</a>
+
